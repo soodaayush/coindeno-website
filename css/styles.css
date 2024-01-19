@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  src: url("../fonts/Lato.ttf") format("ttf");
+  font-display: swap;
+}
 *,
 *::after,
 *::before {
@@ -74,11 +79,17 @@ img {
   align-items: center;
   flex-direction: column;
 }
-.container .content .text .app {
+.container .content .text .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content .text .links img {
   height: 100px;
   transition: 0.15s ease-in-out;
+  cursor: pointer;
 }
-.container .content .text .app:hover {
+.container .content .text .links img:hover {
   opacity: 0.5;
 }
 

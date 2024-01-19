@@ -87,12 +87,19 @@ img {
       align-items: center;
       flex-direction: column;
 
-      .app {
-        height: 100px;
-        transition: 0.15s ease-in-out;
+      .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        &:hover {
-          opacity: 0.5;
+        img {
+          height: 100px;
+          transition: 0.15s ease-in-out;
+          cursor: pointer;
+
+          &:hover {
+            opacity: 0.5;
+          }
         }
       }
     }
