@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Lato";
   font-weight: 400;
-  src: url("../fonts/Lato.ttf") format("ttf");
+  src: url("../fonts/Lato.ttf");
   font-display: swap;
 }
 
@@ -52,8 +52,8 @@ p {
   color: #fff;
 
   .policy {
-    width: 50%;
     text-align: left;
+    padding: 20px;
   }
 
   .header {
@@ -124,7 +124,17 @@ p {
   }
 }
 
+@media (min-width: 800px) {
+  .policy {
+    width: 60%;
+  }
+}
+
 @media (max-width: 800px) {
+  .policy {
+    width: 100%;
+  }
+
   .content {
     display: flex;
     justify-content: center;
@@ -136,6 +146,14 @@ p {
         height: 300px;
         width: 300px;
       }
+    }
+  }
+}
+
+@media (max-width: 385px) {
+  .text {
+    .links {
+      flex-direction: column;
     }
   }
 }
