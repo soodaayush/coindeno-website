@@ -1,4 +1,4 @@
-# FreeFileSync
+# CoinDeno Website
 
 ![coindenowebsite](https://github.com/user-attachments/assets/5c0635bf-56aa-4307-b71e-b75d1a635b3e)
 
@@ -17,3 +17,7 @@ Learned about how Privacy Policies work and how they should be implemented on a 
 ## The Website
 
 Provides basic information and links pertaining to CoinDeno.
+
+## Links
+
+Website: coindeno.netlify.app/
