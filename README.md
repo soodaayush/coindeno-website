@@ -20,4 +20,4 @@ Provides basic information and links pertaining to CoinDeno.
 
 ## Links
 
-Website: coindeno.netlify.app/
+Website: https://coindeno.netlify.app/
