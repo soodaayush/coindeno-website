@@ -42,6 +42,14 @@ p {
   font-family: "Lato", sans-serif;
 }
 
+a {
+  transition: 0.15s ease-in-out;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -72,11 +80,6 @@ p {
     .links {
       a {
         margin-right: 20px;
-        transition: 0.15s ease-in-out;
-
-        &:hover {
-          opacity: 0.5;
-        }
       }
     }
   }
