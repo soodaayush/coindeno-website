@@ -60,34 +60,98 @@
     <title>CoinDeno | Home</title>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div class="logo">
-          <a href="index.html">
-            <img src="images/icon.webp" alt="CoinDeno Logo" />
-          </a>
-        </div>
-        <div class="links">
-          <a href="index.html">Home</a>
-          <a href="privacyPolicy.html">Privacy Policy</a>
-        </div>
-      </div>
-      <div class="content">
-        <div class="logo">
+    <div class="page">
+      <header class="nav">
+        <a class="nav__brand" href="index.html">
           <img src="images/icon.webp" alt="CoinDeno Logo" />
-        </div>
-        <div class="text">
-          <h3>
-            For any support inquires, please contact us at
-            <a href="mailto:coindenoapp@gmail.com">coindenoapp@gmail.com</a>
-          </h3>
-          <div class="links">
-            <a href="https://github.com/soodaayush/coindeno" target="_blank">
-              <img src="images/github.svg" alt="GitHub" />
-            </a>
+          <span>CoinDeno</span>
+        </a>
+        <nav class="nav__links">
+          <a href="index.html" class="is-active">Home</a>
+          <a href="privacyPolicy.html">Privacy Policy</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero__glow" aria-hidden="true"></div>
+          <div class="hero__content">
+            <p class="eyebrow">Cryptocurrency Tracker</p>
+            <h1>Track crypto,<br />the friendly way.</h1>
+            <p class="hero__subtitle">
+              CoinDeno keeps an eye on your favorite coins so you always know
+              where the market stands - simple, clean, and free.
+            </p>
+            <div class="hero__actions">
+              <a
+                class="btn btn--primary"
+                href="https://github.com/soodaayush/coindeno"
+                target="_blank"
+                rel="noopener"
+              >
+                View on GitHub
+              </a>
+              <a class="btn btn--ghost" href="mailto:coindenoapp@gmail.com">
+                Contact Support
+              </a>
+            </div>
           </div>
+          <div class="hero__art">
+            <img src="images/icon.webp" alt="CoinDeno mascot" />
+          </div>
+        </section>
+
+        <section class="features">
+          <div class="feature">
+            <div class="feature__icon" aria-hidden="true">&#128200;</div>
+            <h3>Track Your Coins</h3>
+            <p>
+              Follow the cryptocurrencies you care about, all in one clean,
+              easy-to-read place.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon" aria-hidden="true">&#10024;</div>
+            <h3>Simple by Design</h3>
+            <p>
+              No clutter, no noise. Just the information you actually need,
+              front and center.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon" aria-hidden="true">&#128187;</div>
+            <h3>Free &amp; Open Source</h3>
+            <p>
+              CoinDeno is built in the open. Take a look at the code or
+              contribute on GitHub.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__brand">
+          <img src="images/icon.webp" alt="CoinDeno Logo" />
+          <span>CoinDeno</span>
         </div>
-      </div>
+        <p class="footer__contact">
+          Need help? Reach us at
+          <a href="mailto:coindenoapp@gmail.com">coindenoapp@gmail.com</a>
+        </p>
+        <a
+          class="footer__github"
+          href="https://github.com/soodaayush/coindeno"
+          target="_blank"
+          rel="noopener"
+          aria-label="CoinDeno on GitHub"
+        >
+          <img src="images/github.svg" alt="" />
+        </a>
+        <p class="footer__legal">
+          &copy; 2026 CoinDeno &middot;
+          <a href="privacyPolicy.html">Privacy Policy</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
